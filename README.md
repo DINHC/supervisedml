@@ -11,9 +11,10 @@ Unscaled Data Prediction:
 The Linear Regression model will do better than the Random Tree model due to the data being balanced potentially producing a better accuracy score
 
 Unscaled Data Results:
-
+The Random Forest had a better testing score than the Linear Regression model but the Random Forest Training Score was 1 pointing to it being overfit. The Linear Regession model had lower scores but they were closer in range with one another with Training being 0.65 and Testing being 0.52. I can say that neither performed well here as one had overfit data and one had very low outcomes. 
 
 Scaled Data Prediction:
+
 At this point since the data will be scaled I believe the Random Tree model will do better since the scaling of the data may affect the balance of the data thus favoring the 
 Random Tree model but this goes on the assumption that the data is affected in a way that would alter how it has been set before.
 
